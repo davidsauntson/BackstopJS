@@ -1,4 +1,4 @@
-FROM node:16.14.0
+FROM --platform=linux/amd64 node:14-alpine
 
 ARG BACKSTOPJS_VERSION
 
